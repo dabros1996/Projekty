@@ -1,78 +1,54 @@
 Filetype: IR signals file
 Version: 1
 
-# ---------------------------------------------
-# SYSTEM CODES FOR CAMBRIDGE AUDIO CX SERIES
-# ---------------------------------------------
+# -------------------------------------------------------------
+# CAMBRIDGE AUDIO CX SERIES - FULL CODES IN WORKING BASE64 FORMAT
+# -------------------------------------------------------------
 
 name: Power_Toggle
-type: raw
-frequency: 36000
-duty_cycle: 0.330000
-data: 888 888 888 1777 888 888 888 888 888 1777 1777 888 888 1777 888 888 888 888 888 888 888 888 888 888 1777 888 888
+type: base64
+data: JgAmAA8bDxwPGw8bDxwPGw8bDxwPDxsPHA8bDxwPGw8bDw8bDxwPDxsPHA8bDxwPGw8bDxwPGw8ADQU=
 
 name: Mute_Toggle
-type: raw
-frequency: 36000
-duty_cycle: 0.330000
-data: 888 888 888 1777 888 888 888 888 888 1777 1777 888 888 1777 888 888 888 888 888 1777 888 888 888 888 888 1777 888
+type: base64
+data: JgAmAA8bDxwPGw8bDxwPGw8bDxwPDxsPHA8bDxwPGw8bDw8bDw8bDxwPGw8bDxwPGw8bDxwPGw8bDw8ADQU=
 
 name: Volume_Up
-type: raw
-frequency: 36000
-duty_cycle: 0.330000
-data: 888 888 888 1777 888 888 888 888 888 1777 1777 888 888 1777 888 888 888 1777 888 888 888 888 888 888 1777 888 888
+type: base64
+data: JgAmAA8bDxwPGw8bDxwPGw8bDxwPDxsPHA8bDxwPGw8bDw8bDxwPGw8ADxsPHA8bDxwPGw8bDxwPGw8ADQU=
 
 name: Volume_Down
-type: raw
-frequency: 36000
-duty_cycle: 0.330000
-data: 888 888 888 1777 888 888 888 888 888 1777 1777 888 888 1777 888 888 888 1777 888 1777 888 888 888 888 888 888 888
+type: base64
+data: JgAmAA8bDxwPGw8bDxwPGw8bDxwPDxsPHA8bDxwPGw8bDw8bDxwPGw8bDw8bDxwPGw8bDxwPGw8bDw8ADQU=
 
 name: Input_A1_Analogue
-type: raw
-frequency: 36000
-duty_cycle: 0.330000
-data: 888 888 888 1777 888 888 888 888 888 1777 1777 888 888 1777 888 1777 888 888 888 888 888 888 888 888 1777 1777 888
+type: base64
+data: JgAmAA8bDxwPGw8bDxwPGw8bDxwPDxsPHA8bDxwPGw8bDw8bDxwPGw8bDxwPDxsPHA8bDxwPGw8bDw8ADQU=
 
 name: Input_A2_Analogue
-type: raw
-frequency: 36000
-duty_cycle: 0.330000
-data: 888 888 888 1777 888 888 888 888 888 1777 1777 888 888 1777 888 1777 888 888 888 888 888 888 888 1777 888 888 888
+type: base64
+data: JgAmAA8bDxwPGw8bDxwPGw8bDxwPDxsPHA8bDxwPGw8bDw8bDxwPGw8bDxwPGw8ADxsPHA8bDxwPGw8ADQU=
 
 name: Input_A3_Analogue
-type: raw
-frequency: 36000
-duty_cycle: 0.330000
-data: 888 888 888 1777 888 888 888 888 888 1777 1777 888 888 1777 888 1777 888 888 888 888 888 888 888 1777 1777 888 888
+type: base64
+data: JgAmAA8bDxwPGw8bDxwPGw8bDxwPDxsPHA8bDxwPGw8bDw8bDxwPGw8bDxwPGw8bDw8bDxwPGw8bDw8ADQU=
 
 name: Input_D1_Optical
-type: raw
-frequency: 36000
-duty_cycle: 0.330000
-data: 888 888 888 1777 888 888 888 888 888 1777 1777 888 888 1777 888 1777 888 888 888 888 888 1777 888 888 888 1777 888
+type: base64
+data: JgAmAA8bDxwPGw8bDxwPGw8bDxwPDxsPHA8bDxwPGw8bDw8bDxwPGw8bDxwPGw8bDw8ADxsPHA8bDxwADQU=
 
 name: Input_D2_Coax
-type: raw
-frequency: 36000
-duty_cycle: 0.330000
-data: 888 888 888 1777 888 888 888 888 888 1777 1777 888 888 1777 888 1777 888 888 888 888 888 1777 888 888 1777 888 888
+type: base64
+data: JgAmAA8bDxwPGw8bDxwPGw8bDxwPDxsPHA8bDxwPGw8bDw8bDxwPGw8bDxwPGw8bDxwPDxsPHA8bDxwADQU=
 
 name: Input_USB_Audio
-type: raw
-frequency: 36000
-duty_cycle: 0.330000
-data: 888 888 888 1777 888 888 888 888 888 1777 1777 888 888 1777 888 1777 888 888 888 1777 888 888 888 1777 888 1777 888
+type: base64
+data: JgAmAA8bDxwPGw8bDxwPGw8bDxwPDxsPHA8bDxwPGw8bDw8bDxwPGw8bDxwPGw8bDxwPGw8ADxsPHA8ADQU=
 
 name: Input_Bluetooth
-type: raw
-frequency: 36000
-duty_cycle: 0.330000
-data: 888 888 888 1777 888 888 888 888 888 1777 1777 888 888 1777 888 1777 888 888 888 1777 888 1777 888 888 888 1777 888
+type: base64
+data: JgAmAA8bDxwPGw8bDxwPGw8bDxwPDxsPHA8bDxwPGw8bDw8bDxwPGw8bDxwPGw8bDxwPGw8bDw8ADxsPADQU=
 
 name: Display_Brightness
-type: raw
-frequency: 36000
-duty_cycle: 0.330000
-data: 888 888 888 1777 888 888 888 888 888 1777 1777 888 888 1777 888 888 888 888 888 888 888 1777 888 888 888 1777 888
+type: base64
+data: JgAmAA8bDxwPGw8bDxwPGw8bDxwPDxsPHA8bDxwPGw8bDw8bDxwPGw8bDxwPGw8bDxwPGw8bDxwPDxsPADQU=

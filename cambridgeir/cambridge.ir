@@ -2,168 +2,82 @@ Filetype: IR signals file
 Version: 1
 
 # =============================================================
-# CAMBRIDGE AUDIO CX SERIES - TRUE RC-5 PRONTO CODES FROM MANUAL
+# CAMBRIDGE AUDIO CX SERIES - CORRECT RC-5 RAW TIMING CODES
 # =============================================================
 
 # --- ZASILANIE I EKRAN (System Code 25) ---
 name: Power_Toggle
-type: pronto
-data: 5000 0000 0000 0001 0019 000c
+type: raw
+frequency: 36000
+duty_cycle: 0.330000
+data: 889 -889 889 -889 889 -889 889 -1778 1778 -889 889 -889 889 -1778 889 -889 889 -889 889 -889 889 -889 889 -889 889 -1778 889
 
 name: Power_On
-type: pronto
-data: 5000 0000 0000 0001 0019 000e
+type: raw
+frequency: 36000
+duty_cycle: 0.330000
+data: 889 -889 889 -889 889 -889 889 -1778 1778 -889 889 -889 889 -1778 889 -889 889 -889 889 -889 889 -889 889 -1778 1778 -889 889
 
 name: Power_Off
-type: pronto
-data: 5000 0000 0000 0001 0019 000f
-
-name: LCD_Bright
-type: pronto
-data: 5000 0000 0000 0001 0019 0012
-
-name: LCD_Dim
-type: pronto
-data: 5000 0000 0000 0001 0019 0013
-
-name: LCD_Off
-type: pronto
-data: 5000 0000 0000 0001 0019 0047
+type: raw
+frequency: 36000
+duty_cycle: 0.330000
+data: 889 -889 889 -889 889 -889 889 -1778 1778 -889 889 -889 889 -1778 889 -889 889 -889 889 -889 889 -889 889 -1778 1778 -1778 1778
 
 name: Brightness_Toggle
-type: pronto
-data: 5000 0000 0000 0001 0019 0048
+type: raw
+frequency: 36000
+duty_cycle: 0.330000
+data: 889 -889 889 -889 889 -889 889 -1778 1778 -889 889 -889 889 -1778 889 -889 889 -1778 1778 -889 889 -889 889 -889 889 -889 889
 
-# --- KONTROLA PRE-AMP / GŁOŚNOŚĆ (System Code 16) ---
+# --- PRE-AMP / GŁOŚNOŚĆ (System Code 16) ---
 name: Mute_Toggle
-type: pronto
-data: 5000 0000 0000 0001 0010 000d
+type: raw
+frequency: 36000
+duty_cycle: 0.330000
+data: 889 -889 889 -889 889 -889 889 -1778 1778 -889 889 -1778 1778 -889 889 -889 889 -889 889 -1778 1778 -889 889 -1778 1778
 
 name: Volume_Up
-type: pronto
-data: 5000 0000 0000 0001 0010 0010
+type: raw
+frequency: 36000
+duty_cycle: 0.330000
+data: 889 -889 889 -889 889 -889 889 -1778 1778 -889 889 -1778 1778 -889 889 -889 889 -1778 1778 -889 889 -889 889 -889 889
 
 name: Volume_Down
-type: pronto
-data: 5000 0000 0000 0001 0010 0011
+type: raw
+frequency: 36000
+duty_cycle: 0.330000
+data: 889 -889 889 -889 889 -889 889 -1778 1778 -889 889 -1778 1778 -889 889 -889 889 -1778 1778 -889 889 -1778 1778 -889 889
 
-# --- ALTERNATYWNE ZASILANIE CXN (System Code 24) ---
+# --- ODTWARZACZ I NAWIGACJA CXN (System Code 24) ---
 name: Power_Toggle_CXN
-type: pronto
-data: 5000 0000 0000 0001 0018 0002
-
-# --- ODTWARZACZ I NAWIGACJA CXN / CXC (System Code 24) ---
-name: More
-type: pronto
-data: 5000 0000 0000 0001 0018 0009
-
-name: Home
-type: pronto
-data: 5000 0000 0000 0001 0018 000c
-
-name: Up
-type: pronto
-data: 5000 0000 0000 0001 0018 000d
-
-name: Left
-type: pronto
-data: 5000 0000 0000 0001 0018 0010
-
-name: Select_Enter
-type: pronto
-data: 5000 0000 0000 0001 0018 0011
-
-name: Right
-type: pronto
-data: 5000 0000 0000 0001 0018 0012
-
-name: Down
-type: pronto
-data: 5000 0000 0000 0001 0018 0013
-
-name: Random
-type: pronto
-data: 5000 0000 0000 0001 0018 0014
-
-name: Repeat
-type: pronto
-data: 5000 0000 0000 0001 0018 0015
-
-name: Return
-type: pronto
-data: 5000 0000 0000 0001 0018 0016
-
-name: Skip_Left
-type: pronto
-data: 5000 0000 0000 0001 0018 0017
+type: raw
+frequency: 36000
+duty_cycle: 0.330000
+data: 889 -889 889 -889 889 -889 889 -1778 1778 -889 889 -889 1778 -1778 889 -889 889 -889 889 -889 889 -889 889 -1778 1778
 
 name: Play_Pause
-type: pronto
-data: 5000 0000 0000 0001 0018 0018
-
-name: Skip_Right
-type: pronto
-data: 5000 0000 0000 0001 0018 0019
+type: raw
+frequency: 36000
+duty_cycle: 0.330000
+data: 889 -889 889 -889 889 -889 889 -1778 1778 -889 889 -889 1778 -1778 889 -889 889 -1778 1778 -1778 1778 -889 889
 
 name: Stop
-type: pronto
-data: 5000 0000 0000 0001 0018 001b
+type: raw
+frequency: 36000
+duty_cycle: 0.330000
+data: 889 -889 889 -889 889 -889 889 -1778 1778 -889 889 -889 1778 -1778 889 -889 889 -1778 1778 -1778 1778 -1778 1778
 
-name: Info
-type: pronto
-data: 5000 0000 0000 0001 0018 001c
+name: Input_A1_Analogue
+type: raw
+frequency: 36000
+duty_cycle: 0.330000
+data: 889 -889 889 -889 889 -889 889 -1778 1778 -889 889 -889 1778 -1778 889 -1778 1778 -889 889 -889 889 -1778 1778
 
-name: Bluetooth
-type: pronto
-data: 5000 0000 0000 0001 0018 001f
-
-name: USB_Audio
-type: pronto
-data: 5000 0000 0000 0001 0018 0020
-
-name: D1_Optical
-type: pronto
-data: 5000 0000 0000 0001 0018 0023
-
-name: D2_Coax
-type: pronto
-data: 5000 0000 0000 0001 0018 0024
-
-name: Digital_Input_Menu
-type: pronto
-data: 5000 0000 0000 0001 0018 0078
-
-# --- PRZYCISKI NUMERYCZNE (System Code 24) ---
-name: Num_1
-type: pronto
-data: 5000 0000 0000 0001 0018 0039
-
-name: Num_2
-type: pronto
-data: 5000 0000 0000 0001 0018 003a
-
-name: Num_3
-type: pronto
-data: 5000 0000 0000 0001 0018 003b
-
-name: Num_4
-type: pronto
-data: 5000 0000 0000 0001 0018 003c
-
-name: Num_5
-type: pronto
-data: 5000 0000 0000 0001 0018 003d
-
-name: Num_6
-type: pronto
-data: 5000 0000 0000 0001 0018 003e
-
-name: Num_7
-type: pronto
-data: 5000 0000 0000 0001 0018 003f
-
-name: Num_8
-type: pronto
-data: 5000 0000 0000 0001 0018 0040
+name: Input_D1_Optical
+type: raw
+frequency: 36000
+duty_cycle: 0.330000
+data: 889 -889 889 -889 889 -889 889 -1778 1778 -889 889 -889 1778 -1778 889 -1778 1778 -889 889 -1778 1778 -1778 1778
 
 
